@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import models.ingredientes as ingredientes
 
+=======
+import ingredientes
+>>>>>>> refs/remotes/origin/main
 
 def deduz_item(data, nome, quantidade):
     nome = nome.lower()
