@@ -8,6 +8,7 @@ def adiciona_ingrediente(data, nome, quantidade, unidade="un"):
         ing[nome] = {"quantidade": quantidade, "unidade": unidade}
 
 
+# data de dados, nao de dia
 def deduz_ingrediente(data, nome, quantidade):
     nome = nome.lower()
     ing = data["ingredientes"]
